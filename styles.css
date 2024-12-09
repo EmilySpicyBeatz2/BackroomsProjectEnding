@@ -1,0 +1,43 @@
+body {
+  width: vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+  background-image: url("images/room.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+bed {
+  height: 100%;
+  width: 80%;
+}
+
+standing {
+  height: 100%;
+  width: 20%;
+}
+
+right {
+  height: 100%;
+  width: 20%;
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.bottem-content {
+  display: flex;
+  align-items: bottem;
+  justify-content: center;
+}
